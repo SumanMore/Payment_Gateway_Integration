@@ -1,0 +1,107 @@
+.carousel-item img{
+    height: 100vh;
+}
+.nav_css{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.nav_css a{
+    color: white;
+    font-size:30px;
+    
+}
+.ok a{
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 0px 12px;
+}
+.ok a:hover{
+    color: black;
+    background: white;
+}
+.ok .nav-item{
+    margin-left: 22px;
+    margin-right: 18px;
+}
+.nav_css .ok{
+    padding-left: 600px;
+}
+.carousel-caption{
+    position: absolute;
+    top: 18rem;
+    text-align: left;
+}
+.carousel-item p{
+    color: white;
+    font-size: 1.5rem;
+    max-width: 60rem;
+}
+.carousel-item .btn{
+    background: purple;
+    color: white;
+}
+.carousel-item .btn:hover{
+    background: yellow;
+    color: black;
+}
+.carousel-caption span a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background-color:rgb(255, 156, 7);
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.change1 {
+  animation: changetext 1s infinite;
+}
+@keyframes changetext {
+  0% {
+    color: red;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: blue;
+  }
+}
+.carousel-caption span a:hover{
+    background-color: rgb(255, 204, 49);
+    color: black;
+}
+
+@media screen and (min-device-width: 121px) and (max-device-width: 621px){
+    .d-md-block {
+        display: block !important;
+    }
+    .nav_css .ok{
+        padding-left: 0px;
+    }
+    .ok a{
+        border: 0px solid red;
+    }
+    .carousel-item h1{
+        color: white;
+        font-size: 28px;
+    }
+    .carousel-item p{
+        color: white;
+        font-size: 18px;
+    }
+    .carousel-item .btn{
+        background: purple;
+        color: white;
+        font-size: 0.8rem;
+    }
+    .carousel-caption{
+        position: absolute;
+        top: 190px;
+    }
+}
